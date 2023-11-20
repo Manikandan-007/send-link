@@ -3,7 +3,7 @@ from flask import Flask, jsonify
 
 app = Flask(__name__)
 CORS(app)
-backend_link = 'https://your-backend-link.com'
+backend_link = ''
 
 @app.route('/backend-link', methods=['GET'])
 def get_backend_link():
